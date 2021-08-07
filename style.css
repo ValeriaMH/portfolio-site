@@ -186,6 +186,71 @@ footer a:hover {
     margin-top: 0.2rem;
 }
 
+/* Contact Form */
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid #a2745c;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #9b9b81;
+}
+
+textarea {
+  min-height: 4rem;
+}
+
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: #a2745c;
+  font-weight: bold;
+}
+
+form .button {
+    border: 2px solid #a2745c;
+    background: none;
+    color: #a2745c;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+/* .form-style-two input,
+.form-style-two textarea {
+  border: 2px solid #f8edeb;
+  background-color: #f8edeb;
+}
+
+.form-style-two label {
+  color: #fd7970;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.form-style-two button {
+  border: 2px solid #fd7970;
+  background-color: white;
+  color: #fd7970;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+.form-style-two input:focus,
+.form-style-two textarea:focus {
+  border-color: #fd7970;
+} */
+
 /* Responsive Video */
 
 .embed-container {
